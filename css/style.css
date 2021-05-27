@@ -409,6 +409,10 @@ color: var(--primary-color);
         font-weight: 500;
     }
 
+    section{
+        padding: 20px;
+    }
+
    
 
     .navigation ul li a{
@@ -460,7 +464,7 @@ color: var(--primary-color);
 
   .contact-form{
       width: 100%;
-      padding: 30px 30px 20px;
+      padding: 30px 10px 20px;
   }
 
   .contact-form .row{
@@ -500,7 +504,7 @@ color: var(--primary-color);
 
 
      .contact-info .info-box .details p, .contact-info .info-box .details a{
-        font-size: 12px;
+        font-size: 14px;
         
     }
 }
