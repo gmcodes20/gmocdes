@@ -311,7 +311,7 @@ footer{
 .contact-form{
     position: relative;
     background: #f9f9f9;
-    width: calc(100% - 400px);
+    width: calc(100% - 350px);
     padding: 60px 40px 20px;
 }
 .contact-form form{
@@ -371,11 +371,12 @@ footer{
 .contact-info .info-box {
     display: flex;
     align-items: flex-start;
+    padding-top: 20px;
 }
 
 .contact-info .info-box .contact-icon{
     width: 20px;
-    margin: 40px;
+    margin: 10px;
 }
 
 .contact-info .info-box .details h4{
@@ -384,6 +385,7 @@ color: var(--primary-color);
 
 .contact-info .info-box .details p, .contact-info .info-box .details a{
     color: var(--secondary-color);
+    margin-top: 0;
 }
 
 @media (max-width: 1068px){
@@ -490,4 +492,15 @@ color: var(--primary-color);
         box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
         border-bottom: 2px solid var(--secondary-color);
      }
+     .contact-info{
+        margin-top:20px ;
+        padding: 0 0 20px;
+       font-size: 12px;
+     }
+
+
+     .contact-info .info-box .details p, .contact-info .info-box .details a{
+        font-size: 12px;
+        
+    }
 }
