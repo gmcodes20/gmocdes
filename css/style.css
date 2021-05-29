@@ -598,6 +598,15 @@ color: var(--secondary-color);
 }
 
 @media(max-width:768px ){
+
+	.navigation ul li{
+		margin-left: 20px;
+	}
+
+	.navigation ul li a{
+		font-size: 16px;
+	}
+
     .services{grid-template-columns: 1fr;}
 
     footer{
